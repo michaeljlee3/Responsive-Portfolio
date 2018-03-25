@@ -265,10 +265,6 @@ input[type=submit] {
 		z-index: 1;
 	}
 
-	.box {
-		width: 100%;
-	}
-
 	#connect {
 		clear: both;
 		float: left;
@@ -282,7 +278,7 @@ input[type=submit] {
 		clear: both;
 		float: left;
 		overflow: auto 0;
-		width: initial;
+		width: 90%;
         margin: 5%;
 	}
 
@@ -306,5 +302,15 @@ input[type=submit] {
         margin: 0 5% 5% 5%;
         max-width: 640px;
         width: 90%;
-	}
+    }
+    
+    nav>a {
+        width: 30%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .work {
+        width: 100%;
+    }
 }
