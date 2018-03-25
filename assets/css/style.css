@@ -91,6 +91,9 @@ nav a:first-child {
 
 #main-container {
     padding-top: 130px;
+    clear: both;
+	overflow: auto;
+	margin: 0 auto;
 }
 
 .main-section {
@@ -238,7 +241,7 @@ input[type=submit] {
 		text-align: center;
 		font-weight: bold;
 		vertical-align: middle;
-		padding-top: 3%;
+		padding-top: 0%;
 		margin-left: 0%;
 	}
 
@@ -248,7 +251,8 @@ input[type=submit] {
 		width: 100%;
 		text-align: center;
 		float: left;
-		border-bottom: 2px solid #cccccc;
+        margin-top: 13px;
+        margin-bottom: 13px;
 	}
 
 	p {
@@ -258,7 +262,7 @@ input[type=submit] {
 	#masterheader {
 		border-bottom: none;
 		/* Position header static. */
-		z-index: -1;
+		z-index: 1;
 	}
 
 	.box {
@@ -279,7 +283,7 @@ input[type=submit] {
 		float: left;
 		overflow: auto 0;
 		width: initial;
-		margin: 5%;
+        margin: 5%;
 	}
 
 	/* Image full width with space before paragraph. */
@@ -287,5 +291,18 @@ input[type=submit] {
 		width: 100%;
 		height: 100%;
 		margin-bottom: 15px;
+    }
+    
+    #main-container {
+        padding-top: 0px;
+        clear: both;
+        overflow: auto;
+        margin: 160px auto 5%;
+    }
+
+    .sidebar {
+		clear: both;
+		float: left;
+        margin: 0 5% 5% 5%;
 	}
 }
